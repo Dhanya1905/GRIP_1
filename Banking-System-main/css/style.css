@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.intro{
+	background: #EAF0F1;
+}
+h1{
+	color: #4C4B4B;
+	font-weight: bold;
+	transition: 0.5s;
+}
+h3{
+	color:#2F363F;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+	color:black;
+	background:#e84118;
+    text-decoration:underline;
+}
+
+footer{
+	color:#e84118;
+	background-color:#e84118;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+.centerdiv
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+
+}
+
+footer a
+{
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background-color: #f5f6fa;
+  text-align: center;
+  margin: 100px;
+  line-height: 50px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+a i{
+  transition: all 0.3s linear;
+}
+a:hover i
+{
+ transform: scale(1.4);
+
+}
+
+.fa-instagram
+{ 
+  color: #e84393;
+}
+
+.fa-youtube 
+{
+color: #e84118;
+}
+
+.fa-linkedin
+{ 
+   color: #0A66C2;
+}
+
+.fa-twitter
+{
+  
+color:#0097e6;
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 50px;
+	}
+	.act:hover{
+		color:aqua;
+	}
+}
